@@ -1,0 +1,164 @@
+body {
+    background: #181719;
+}
+
+a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+a:hover {
+    color: orange
+}
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.main-header {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #ffffff;
+}
+
+.header-logo {
+    text-transform: uppercase;
+    border: solid 1px #ffffff;
+    font-family: "Crimson Pro", serif;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 14px;
+    line-height: 16px ;
+}
+
+.main-nav-bar {
+    display: flex;
+    justify-content: center;
+}
+
+.main-nav-list {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.main-nav-list li {
+    margin: 1.5rem;
+}
+
+.main-nav-list .current-page {
+    font-weight: bold;
+}
+
+.main {
+    display: flex;
+    justify-content: space-between;
+}
+
+.box-one {
+    max-width: 410px;
+    max-height: 145px;
+    color: #ffffff;
+}
+
+.box-one .showcase-text p:first-child {
+    font-family: "Lora", serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 61px;
+    text-transform: capitalize;
+}
+
+.box-one .showcase-text p:nth-child(2) {
+    font-family: "Montserrat" , serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 29px;
+}
+
+
+.box-one .main-link-box {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;   
+}
+
+.box-two .bg-image {
+    background-image: url("/img/photo1.png");
+    background-size: contain;
+    background-position: center;
+    width: 700px;
+    height: 490px;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+
+.card {
+    position: relative;
+    width: 410px;
+    height: 189px;
+    left: 30%;
+    bottom: 10%;
+    background-color: #181719;
+}
+
+.card .card-profile {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.card  .card-image {
+    width: 85px;
+    height: 72px;
+    border: transparent solid 1px;
+    border-radius: 50%;
+    background-image: url("/img/photo2.png");
+    background-position: center;
+    background-size: contain;
+}
+
+.card-image-info p {
+    font-family: "Montserrat", serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    color: #ffffff;
+}
+
+.card-image-info small {
+    font-family: "Montserrat", serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 12px;
+    color: #828282;
+}
+
+.card-text {
+    font-family: "Lora",serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 31px;
+    width: 287px;
+    height: 62px;
+    color: #FFFFFF;
+}
+
+.main-footer {
+    display: flex;
+    justify-content: center;
+    font-family: "Montserrat", serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    color: #A9A9A9;
+}
