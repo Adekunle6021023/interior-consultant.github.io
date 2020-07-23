@@ -104,7 +104,7 @@ a:hover {
 }
 
 .box-two .bg-image {
-    background-image: url("/img/photo1.png");
+    background-image: url("img/photo1.png");
     background-size: 100%;
     background-position: center;
     width: 600px;
